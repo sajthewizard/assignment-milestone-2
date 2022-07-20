@@ -1,0 +1,141 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main {
+    display: flex;
+    background-color: black;
+
+    width: 2300px;
+    height: 900px;
+    border-radius: 30px;
+    margin-left: 10%;
+    margin-top: 5%;
+
+
+}
+
+.first-texts {
+    margin-top: 10%;
+    margin-left: 3%;
+    width: 45%;
+}
+
+.title {
+    color: rgb(234, 248, 248);
+    font-size: 60px;
+
+}
+
+.title-second {
+    color: rgb(234, 248, 248);
+    font-size: 30px;
+
+
+}
+
+
+.main .Marcelo img {
+    position: absolute;
+    width: 800px;
+    height: 700px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.button {
+    color: white;
+    background-color: orangered;
+    border-radius: 5px;
+    font-size: 45px;
+    padding: 2% 2%;
+
+
+}
+
+
+
+.features {
+    display: flex;
+    margin-top: 60px;
+
+    margin-left: 15%;
+
+}
+
+.sidescreen {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 400px;
+    height: 400px;
+    margin-left: 172px;
+    margin-right: 150px;
+}
+
+.transfers {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1000px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.transfer {
+    border: .3px dotted lightgray;
+    border-radius: 10px;
+    height: 330px;
+}
+
+.transfer img {
+    width: 100%
+}
+
+.local {
+    font-size: 30px;
+    margin: 15px 15px;
+    border-radius: 18px;
+}
+
+#initial {
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.icon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+    color: gray;
+}
+
+.salah {
+    margin-left: 5px;
+    font-size: 17px;
+}
+
+.ending {
+    background-color: black;
+    height: 800px;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.design {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.last-resort {
+    display: flex;
+
+    color: wheat;
+    justify-content: space-evenly;
+}
