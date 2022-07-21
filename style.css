@@ -8,11 +8,11 @@ body {
     display: flex;
     background-color: black;
 
-    width: 2300px;
+    width: 100%px;
     height: 900px;
     border-radius: 30px;
-    margin-left: 10%;
-    margin-top: 5%;
+    margin-left: ;
+    margin-top: 0%;
 
 
 }
@@ -61,7 +61,7 @@ body {
     display: flex;
     margin-top: 60px;
 
-    margin-left: 15%;
+    margin-left: 3%;
 
 }
 
@@ -126,7 +126,7 @@ a {
 
 .ending {
     background-color: black;
-    height: 800px;
+    height: 500px;
     width: 100%;
     margin-top: 5%;
 }
@@ -199,3 +199,5 @@ a {
     color: silver;
     margin-left: 20%;
 }
+
+@media only screen and (max-width:420px) {}
