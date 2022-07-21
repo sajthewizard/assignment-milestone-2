@@ -8,8 +8,9 @@ body {
     display: flex;
     background-color: black;
 
+
     width: 100%px;
-    height: 900px;
+    height: 80%x;
     border-radius: 30px;
     margin-left: ;
     margin-top: 0%;
@@ -20,7 +21,7 @@ body {
 .first-texts {
     margin-top: 10%;
     margin-left: 3%;
-    width: 45%;
+    width: 50%;
 }
 
 .title {
@@ -37,12 +38,15 @@ body {
 }
 
 
-.main .Marcelo img {
-    position: absolute;
-    width: 800px;
-    height: 700px;
-    margin-left: 10%;
-    margin-top: 5%;
+.Marcelo {
+    width: 50%;
+}
+
+.Marcelo img {
+    width: 80%;
+    height 80%;
+    padding-left: 80px;
+
 }
 
 .button {
@@ -69,17 +73,17 @@ body {
     background-color: black;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    width: 500px;
-    height: 500px;
-    margin-left: 100px;
-    margin-right: 150px;
+    width: 30%;
+    height: 100%;
+    margin-right: 5%;
+
 }
 
 .transfers {
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 1000px;
+    width: 65%;
     row-gap: 30px;
     column-gap: 30px;
 }
@@ -87,7 +91,7 @@ body {
 .transfer {
     border: .3px dotted lightgray;
     border-radius: 10px;
-    height: 330px;
+    height: 15%;
 }
 
 .transfer img {
@@ -126,7 +130,7 @@ a {
 
 .ending {
     background-color: black;
-    height: 500px;
+    height: 35%;
     width: 100%;
     margin-top: 5%;
 }
@@ -145,8 +149,6 @@ a {
     justify-content: space-evenly;
 }
 
-.logo {}
-
 .flags {
     display: flex;
 
@@ -154,14 +156,14 @@ a {
 
 .country img {
     margin: 5px 5px;
-    width: 150px;
+    width: 80%;
 }
 
 .matches {
     display: grid;
     border: 1px solid lightgray;
-    height: 350px;
-    width: 350px;
+    height: 40%px;
+    width: 35%px;
     border-radius: 8px;
     justify-content: center;
     align-items: center;
@@ -187,6 +189,7 @@ a {
 
 .end-game {
     display: flex;
+    padding-top: 3%;
     column-gap: 50px;
     padding-left: 45%;
     background-color: black;
